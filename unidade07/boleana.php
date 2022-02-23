@@ -1,5 +1,5 @@
 <?php
-
+    $_fumante = false;
 ?>
 
 <!doctype html>
@@ -10,5 +10,9 @@
     </head>
 
     <body>
+        <?php
+            echo "É fumante? $_fumante <br>";
+            echo "É boleana? " . is_bool($_fumante);
+        ?>
     </body>
 </html>

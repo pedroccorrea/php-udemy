@@ -1,5 +1,5 @@
 <?php
-
+    $_nome = null
 ?>
 
 <!doctype html>
@@ -10,5 +10,9 @@
     </head>
 
     <body>
+        <?php
+            echo "Nome = " . $_nome . "<br>";
+            echo is_null($_nome);
+        ?>
     </body>
 </html>
