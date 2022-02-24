@@ -5,8 +5,13 @@
     <title>CURSO PHP FUNDAMENTAL</title>
 </head>
 <body>
-    <?php                    
-
+    <?php
+        $_count = 1;
+        do {
+            $_sorteio = rand(1, 60);
+            echo $_sorteio . "<br>";
+            $_count += 1;
+        } while ($_count < 1)
     ?>
 </body>
 </html>

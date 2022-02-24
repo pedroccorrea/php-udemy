@@ -6,8 +6,13 @@
         <title>CURSO PHP FUNDAMENTAL</title>
     </head>
     <body>
-        <?php 
-
+        <?php
+            $_fumante = true;
+            if (!$_fumante) {
+                echo "Você não é fumante";
+            } else {
+                echo "Você é fumante.";
+            }
         ?>
     </body>
 </html>

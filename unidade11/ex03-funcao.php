@@ -6,7 +6,11 @@
 </head>
 <body>
     <?php 
-
+        function converterTemperatura($_celsius) {
+           return $_celsius * 1.8 + 32;
+        }
+        
+        echo converterTemperatura(30);
     ?>
 </body>
 </html>

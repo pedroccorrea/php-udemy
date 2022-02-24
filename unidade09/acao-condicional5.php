@@ -6,8 +6,15 @@
         <title>CURSO PHP FUNDAMENTAL</title>
     </head>
     <body>
-        <?php 
+        <?php
+            $_numero1 = 5;
+            $_numero2 = "5";
 
+            if ($_numero1 === $_numero2) {
+                echo "São identicos";
+            } else {
+                echo "São diferentes";
+            }
         ?>
     </body>
 </html>
