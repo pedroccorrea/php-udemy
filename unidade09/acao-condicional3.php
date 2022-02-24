@@ -6,8 +6,10 @@
         <title>CURSO PHP FUNDAMENTAL</title>
     </head>
     <body>
-        <?php 
-
+        <?php
+            $_idade = 17;
+            $_maioridade = ($_idade > 17)? "De maior" : "De menor";
+            echo $_maioridade;
         ?>
     </body>
 </html>
