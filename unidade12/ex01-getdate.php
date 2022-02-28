@@ -13,7 +13,13 @@
 
         <pre>
             <?php
-                print_r($_agora["hours"])
+                print_r($_agora)
+            ?>
+        </pre>
+
+        <pre>
+            <?php
+                print_r(gettimeofday());
             ?>
         </pre>
     </body>
