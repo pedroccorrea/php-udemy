@@ -12,6 +12,7 @@
             "salario" => 1000.50,
             "fumante" => false
         );
+
         foreach ($_agenda as $_contatos => $_valor){
             if($_contatos == "fumante"){
                 if ($_valor == true){
@@ -25,4 +26,5 @@
     ?>
 </body>
 </html>
+
 

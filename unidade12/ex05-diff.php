@@ -20,7 +20,7 @@
 
         <pre>
             <?php
-                print_r($_intervalo->format('%y'\));
+                print_r($_intervalo->format('%y'));
             ?>
         </pre>
     </body>
